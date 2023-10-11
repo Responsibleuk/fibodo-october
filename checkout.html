@@ -1,703 +1,949 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Ansonika">
-    <title>Allaia | Bootstrap eCommerce Template - ThemeForest</title>
+	<head>
 
-    <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
-	
-    <!-- GOOGLE WEB FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <!-- BASE CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+		<title>Checkout - Medicia</title>
+		<link rel="shortcut icon" href="assets/images/logo/favourite_icon_1.png">
 
-	<!-- SPECIFIC CSS -->
-    <link href="css/checkout.css" rel="stylesheet">
+		<!-- css include -->
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/line-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css">
 
-    <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
 
-</head>
+		<!-- custom - css include -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-<body>
-	
-	<div id="page">
-		
-	<header class="version_1">
-		<div class="layer"></div><!-- Mobile menu overlay mask -->
-		<div class="main_header">
-			<div class="container">
-				<div class="row small-gutters">
-					<div class="col-xl-3 col-lg-3 d-lg-flex align-items-center">
-						<div id="logo">
-							<a href="index.html"><img src="img/logo.svg" alt="" width="100" height="35"></a>
+	</head>
+
+
+	<body>
+
+
+		<!-- backtotop - start -->
+		<div id="thetop"></div>
+		<div id="backtotop">
+			<a href="#" id="scroll">
+				<i class="las la-arrow-up"></i>
+			</a>
+		</div>
+		<!-- backtotop - end -->
+
+		<!-- preloader - start -->
+		<!-- <div id="preloader"></div> -->
+		<!-- preloader - end -->
+
+
+		<!-- header-section - start
+		================================================== -->
+		<header id="header-section" class="header-section clearfix">
+			<div class="header-top bg-white d-flex align-items-center clearfix">
+				<div class="container">
+					<div class="row align-items-center">
+
+						<div class="col-lg-6">
+							<div class="info-list ul-li clearfix">
+								<ul class="clearfix">
+									<li><a href="#!"><i class="las la-map-marked-alt mr-1"></i> Store Location</a></li>
+									<li><a href="#!"><i class="las la-envelope-open-text mr-1"></i> support@admin.com</a></li>
+								</ul>
+							</div>
 						</div>
+
+						<div class="col-lg-6">
+							<div class="info-list ul-li-right clearfix">
+								<ul class="clearfix">
+									<li><a href="#!"><span class="mr-1">Htoline:</span> 533 655 - 656</a></li>
+									<li>
+										<div class="dropdown select-option">
+											<button class="dropdown-toggle" type="button" id="language-select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												English
+											</button>
+											<div aria-labelledby="language-select" class="dropdown-menu ul-li-block clearfix">
+												<ul class="clearfix">
+													<li><a href="#!">Franch</a></li>
+													<li><a href="#!">Bangla</a></li>
+													<li><a href="#!">Spanish</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
 					</div>
-					<nav class="col-xl-6 col-lg-7">
-						<a class="open_close" href="javascript:void(0);">
-							<div class="hamburger hamburger--spin">
-								<div class="hamburger-box">
-									<div class="hamburger-inner"></div>
+				</div>
+			</div>
+
+			<div class="header-middle bg-gray d-flex align-items-center clearfix">
+				<div class="container">
+					<div class="row align-items-center">
+
+						<div class="col-lg-3 col-md-12">
+							<div class="brand-logo clearfix">
+								<a href="index.html" class="brand-link">
+									<img src="assets/images/logo/logo_1.png" alt="logo_not_found">
+								</a>
+
+								<div class="btns-group ul-li-right clearfix">
+									<ul class="clearfix">
+										<li>
+											<button type="button" class="mobile-menu-btn">
+												<i class="las la-bars"></i>
+											</button>
+										</li>
+										<li>
+											<button class="mobile-btn-cart">
+												<i class="las la-shopping-bag"></i>
+												<small class="cart-counter bg-royal-blue">03</small>
+											</button>
+										</li>
+									</ul>
 								</div>
 							</div>
-						</a>
-						<!-- Mobile menu button -->
-						<div class="main-menu">
-							<div id="header_menu">
-								<a href="index.html"><img src="img/logo_black.svg" alt="" width="100" height="35"></a>
-								<a href="#" class="open_close" id="close_in"><i class="ti-close"></i></a>
+						</div>
+
+						<div class="col-lg-9 col-md-12">
+							<div class="btns-group ul-li-right clearfix">
+								<ul class="clearfix">
+									<li>
+										<form action="#">
+											<div class="form-item">
+												<input type="search" name="search" placeholder="Search your Products">
+												<button type="submit"><i class="la la-search"></i></button>
+											</div>
+										</form>
+									</li>
+									<li class="dropdown">
+										<button type="button" class="btn-user" id="user-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<i class="lar la-user"></i>
+										</button>
+										<div aria-labelledby="user-dropdown" class="user-dropdown dropdown-menu ul-li-block clearfix">
+											<div class="profile-info clearfix">
+												<a href="#!" class="user-thumbnail">
+													<img src="assets/images/meta/img_2.png" alt="thumbnail_not_found">
+												</a>
+												<div class="user-content">
+													<h4 class="user-name"><a href="#!">Rakibul Hassan</a></h4>
+													<span class="user-title">Seller</span>
+												</div>
+											</div>
+											<ul class="clearfix">
+												<li><a href="#!"><i class="las la-user-circle"></i> Profile</a></li>
+												<li><a href="#!"><i class="las la-user-cog"></i> Settings</a></li>
+												<li><a href="#!"><i class="las la-sign-out-alt"></i> Logout</a></li>
+											</ul>
+										</div>
+									</li>
+									<li class="dropdown">
+										<button class="btn-cart" id="cart-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<i class="las la-shopping-bag"></i>
+											<small class="cart-counter bg-royal-blue">03</small>
+										</button>
+										<div class="cart-dropdown dropdown-menu" aria-labelledby="cart-dropdown">
+											<h3 class="title-text">Cart Items:- 03</h3>
+
+											<div class="cart-items-list ul-li-block clearfix">
+												<ul class="clearfix">
+													<li>
+														<div class="item-image">
+															<img src="assets/images/cart/img_1.png" alt="image_not_found">
+														</div>
+														<div class="item-content">
+															<h4 class="item-title">Digital Thermometer</h4>
+															<span class="item-price">$39.50</span>
+														</div>
+														<button type="button" class="remove-btn"><i class="las la-times"></i></button>
+													</li>
+
+													<li>
+														<div class="item-image">
+															<img src="assets/images/cart/img_2.png" alt="image_not_found">
+														</div>
+														<div class="item-content">
+															<h4 class="item-title">Digital Infrared Thermometer</h4>
+															<span class="item-price">$39.50</span>
+														</div>
+														<button type="button" class="remove-btn"><i class="las la-times"></i></button>
+													</li>
+
+													<li>
+														<div class="item-image">
+															<img src="assets/images/cart/img_3.png" alt="image_not_found">
+														</div>
+														<div class="item-content">
+															<h4 class="item-title">Digital Blood Pressure Machine</h4>
+															<span class="item-price">$39.50</span>
+														</div>
+														<button type="button" class="remove-btn"><i class="las la-times"></i></button>
+													</li>
+												</ul>
+											</div>
+
+											<div class="btns-group ul-li clearfix">
+												<ul class="clearfix">
+													<li><a href="cart.html" class="btn bg-default-black">View Cart</a></li>
+													<li><a href="checkout.html" class="btn bg-royal-blue">Checkout</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+								</ul>
 							</div>
-							<ul>
-								<li class="submenu">
-									<a href="javascript:void(0);" class="show-submenu">Home</a>
-									<ul>
-										<li><a href="index.html">Slider</a></li>
-										<li><a href="index-2.html">Video Background</a></li>
-										<li><a href="index-3.html">Vertical Slider</a></li>
-										<li><a href="index-4.html">GDPR Cookie Bar</a></li>
-									</ul>
-								</li>
-								<li class="megamenu submenu">
-									<a href="javascript:void(0);" class="show-submenu-mega">Pages</a>
-									<div class="menu-wrapper">
-										<div class="row small-gutters">
-											<div class="col-lg-3">
-												<h3>Listing grid</h3>
-												<ul>
-													<li><a href="listing-grid-1-full.html">Grid Full Width</a></li>
-													<li><a href="listing-grid-2-full.html">Grid Full Width 2</a></li>
-													<li><a href="listing-grid-3.html">Grid Boxed</a></li>
-													<li><a href="listing-grid-4-sidebar-left.html">Grid Sidebar Left</a></li>
-													<li><a href="listing-grid-5-sidebar-right.html">Grid Sidebar Right</a></li>
-													<li><a href="listing-grid-6-sidebar-left.html">Grid Sidebar Left 2</a></li>
-													<li><a href="listing-grid-7-sidebar-right.html">Grid Sidebar Right 2</a></li>
-												</ul>
-											</div>
-											<div class="col-lg-3">
-												<h3>Listing row &amp; Product</h3>
-												<ul>
-													<li><a href="listing-row-1-sidebar-left.html">Row Sidebar Left</a></li>
-													<li><a href="listing-row-2-sidebar-right.html">Row Sidebar Right</a></li>
-													<li><a href="listing-row-3-sidebar-left.html">Row Sidebar Left 2</a></li>
-													<li><a href="listing-row-4-sidebar-extended.html">Row Sidebar Extended</a></li>
-													<li><a href="product-detail-1.html">Product Large Image</a></li>
-													<li><a href="product-detail-2.html">Product Carousel</a></li>
-													<li><a href="product-detail-3.html">Product Sticky Info</a></li>
-												</ul>
-											</div>
-											<div class="col-lg-3">
-												<h3>Other pages</h3>
-												<ul>
-													<li><a href="cart.html">Cart Page</a></li>
-													<li><a href="checkout.html">Check Out Page</a></li>
-													<li><a href="confirm.html">Confirm Purchase Page</a></li>
-													<li><a href="account.html">Create Account Page</a></li>
-													<li><a href="track-order.html">Track Order</a></li>
-													<li><a href="help.html">Help Page</a></li>
-													<li><a href="help-2.html">Help Page 2</a></li>
-													<li><a href="leave-review.html">Leave a Review</a></li>
-												</ul>
-											</div>
-											<div class="col-lg-3 d-xl-block d-lg-block d-md-none d-sm-none d-none">
-												<div class="banner_menu">
-													<a href="#0">
-														<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/banner_menu.jpg" width="400" height="550" alt="" class="img-fluid lazy">
-													</a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="header-bottom d-flex align-items-center clearfix">
+				<div class="container">
+					<div class="row align-items-center">
+
+						<div class="col-lg-2">
+							<div class="all-categories clearfix">
+								<button type="button" class="category-btn" data-toggle="collapse" data-target="#categories-collapse" aria-expanded="false" aria-controls="categories-collapse">
+									<i class="las la-bars"></i> 
+									All Categories
+								</button>
+
+								<div id="categories-collapse" class="categories-collapse collapse">
+									<div class="card card-body ul-li-block">
+										<ul class="clearfix">
+											<li><a href="#!"><span><i class="las la-microscope"></i></span> Equipment</a></li>
+											<li><a href="#!"><span><i class="las la-capsules"></i></span> General Medecine</a></li>
+											<li><a href="#!"><span><i class="las la-dna"></i></span> Food Suppliment</a></li>
+											<li><a href="#!"><span><i class="las la-first-aid"></i></span> Pharmacy</a></li>
+											<li><a href="#!"><span><i class="las la-stethoscope"></i></span> Medical Tools</a></li>
+											<li><a href="#!"><span><i class="las la-syringe"></i></span> Surgery Equipment</a></li>
+											<li><a href="#!"><span><i class="las la-brain"></i></span> Neurology</a></li>
+											<li><a href="#!"><span><i class="las la-x-ray"></i></span> Orthopredic</a></li>
+											<li><a href="#!"><span><i class="las la-thermometer"></i></span> Diabetic Medicine</a></li>
+											<li><a href="#!"><span><i class="las la-user-nurse"></i></span> ICU Euipment</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-8">
+							<nav class="main-menu ul-li-center clearfix">
+								<ul class="clearfix">
+									<li class="active menu-item-has-child">
+										<a href="#!">Home</a>
+										<ul class="submenu">
+											<li class="active"><a href="index.html">Home V.1</a></li>
+											<li><a href="index-2.html">Home V.2</a></li>
+										</ul>
+									</li>
+									<li><a href="about.html">About</a></li>
+									<li class="menu-item-has-child">
+										<a href="#!">Collections</a>
+										<div class="mega_menu">
+											<div class="row">
+												<div class="col-lg-3">
+													<div class="useful-links ul-li-block clearfix">
+														<h3 class="list-title">Medical Equipments</h3>
+														<ul class="clearfix">
+															<li><a href="#!">Blood Pressure Machine</a></li>
+															<li><a href="#!">First Aid Kit</a></li>
+															<li><a href="#!">Digital Thermometer</a></li>
+															<li><a href="#!">Surgical Mask</a></li>
+															<li><a href="#!">Digital Stethoscope</a></li>
+														</ul>
+													</div>
+												</div>
+
+												<div class="col-lg-3">
+													<div class="useful-links ul-li-block clearfix">
+														<h3 class="list-title">Medicines</h3>
+														<ul class="clearfix">
+															<li><a href="#!">General Medicine</a></li>
+															<li><a href="#!">Diabetes Insulin</a></li>
+															<li><a href="#!">Food Suppliment</a></li>
+															<li><a href="#!">Kids Medecine</a></li>
+															<li><a href="#!">Pregnancy Medicine</a></li>
+															<li><a href="#!">Health and Beauty</a></li>
+															<li><a href="#!">Orthopedic</a></li>
+														</ul>
+													</div>
+												</div>
+
+												<div class="col-lg-3">
+													<div class="useful-links ul-li-block clearfix">
+														<h3 class="list-title">Medical Tools</h3>
+														<ul class="clearfix">
+															<li><a href="#!">Accu Chek Active</a></li>
+															<li><a href="#!">Glucometer</a></li>
+															<li><a href="#!">Plaster Machine</a></li>
+															<li><a href="#!">Oximeter</a></li>
+															<li><a href="#!">Microscope</a></li>
+														</ul>
+													</div>
+												</div>
+
+												<div class="col-lg-3">
+													<div class="promotion-fullimage clearfix">
+														<a href="#!" class="item-image">
+															<img src="assets/images/promotion/img_8.jpg" alt="image_not_found">
+														</a>
+														<div class="promotion-content position-top">
+															<small class="d-block text-white mb-1">Medical Supplies</small>
+															<h3 class="item-title">
+																<span class="d-block">Coronavirus Medical</span> <span class="d-block">Supplies</span>
+															</h3>
+															<a href="#!" class="btn-underline">Shop Now</a>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
-										<!-- /row -->
-									</div>
-									<!-- /menu-wrapper -->
-								</li>
-								<li class="submenu">
-									<a href="javascript:void(0);" class="show-submenu">Extra Pages</a>
-									<ul>
-										<li><a href="header-2.html">Header Style 2</a></li>
-										<li><a href="header-3.html">Header Style 3</a></li>
-										<li><a href="header-4.html">Header Style 4</a></li>
-										<li><a href="header-5.html">Header Style 5</a></li>
-										<li><a href="404.html">404 Page</a></li>
-										<li><a href="sign-in-modal.html">Sign In Modal</a></li>
-										<li><a href="contacts.html">Contact Us</a></li>
-										<li><a href="about.html">About 1</a></li>
-										<li><a href="about-2.html">About 2</a></li>
-										<li><a href="modal-advertise.html">Modal Advertise</a></li>
-										<li><a href="modal-newsletter.html">Modal Newsletter</a></li>
+									</li>
+									<li class="menu-item-has-child">
+										<a href="#!">Shop</a>
+										<ul class="submenu">
+											<li class="menu-item-has-child">
+												<a href="#!">Shop Grid</a>
+												<ul class="submenu">
+													<li><a href="shop-grid-2-column.html">Grid 2 Column</a></li>
+													<li><a href="shop-grid-3-column.html">Grid 3 Column</a></li>
+													<li><a href="shop-grid-4-column.html">Grid 4 Column</a></li>
+												</ul>
+											</li>
+											<li><a href="shop-list.html">Shop List</a></li>
+											<li class="menu-item-has-child">
+												<a href="#!">Shop Details</a>
+												<ul class="submenu">
+													<li><a href="shop-details-1.html">Shop Details v1</a></li>
+													<li><a href="shop-details-2.html">Shop Details v2</a></li>
+													<li><a href="shop-details-3.html">Shop Details v3</a></li>
+													<li><a href="shop-details-4.html">Shop Details v4</a></li>
+												</ul>
+											</li>
+											<li><a href="cart.html">Cart Page</a></li>
+											<li><a href="checkout.html">Checkout Page</a></li>
+											<li><a href="wishlist.html">Wishlist Page</a></li>
+										</ul>
+									</li>
+									<li class="menu-item-has-child">
+										<a href="#!">Pages</a>
+										<ul class="submenu">
+											<li><a href="cart.html">Cart Page</a></li>
+											<li><a href="checkout.html">Checkout Page</a></li>
+											<li><a href="wishlist.html">Wishlist Page</a></li>
+										</ul>
+									</li>
+									<li class="menu-item-has-child">
+										<a href="#!">Blog</a>
+										<ul class="submenu">
+											<li><a href="blog-standard.html">Blog Standard</a></li>
+											<li><a href="blog-masonry.html">Blog Masonry</a></li>
+											<li><a href="blog-details.html">Blog Details</a></li>
+										</ul>
+									</li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+
+						<div class="col-lg-2">
+							<div class="social-icon ul-li-right clearfix">
+								<ul class="clearfix">
+									<li><a href="#!"><i class="lab la-facebook"></i></a></li>
+									<li><a href="#!"><i class="lab la-twitter"></i></a></li>
+									<li><a href="#!"><i class="lab la-instagram"></i></a></li>
+									<li><a href="#!"><i class="lab la-pinterest-p"></i></a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- sidebar mobile menu - start -->
+		<div class="sidebar-menu-wrapper">
+			<div id="sidebar-menu" class="sidebar-menu">
+
+				<span class="close-btn">
+					<i class="las la-times"></i>
+				</span>
+
+				<div class="brand-logo text-center clearfix">
+					<a href="index.html" class="brand-link">
+						<img src="assets/images/logo/logo_3.png" alt="logo_not_found">
+					</a>
+				</div>
+
+				<div class="search-wrap">
+					<form action="#!">
+						<div class="form-item mb-0">
+							<input type="search" name="search" placeholder="Search your Products">
+							<button type="submit"><i class="la la-search"></i></button>
+						</div>
+					</form>
+				</div>
+
+				<div id="mobile-accordion" class="mobile-accordion">
+					<div class="card">
+						<div class="card-header" id="heading-one">
+							<button data-toggle="collapse" data-target="#collapse-one" aria-expanded="false" aria-controls="collapse-one">
+								<i class="las la-shopping-bag"></i> 
+								Cart Item
+								<small>03</small>
+							</button>
+						</div>
+						<div id="collapse-one" class="collapse" aria-labelledby="heading-one" data-parent="#mobile-accordion">
+							<div class="card-body">
+								<div class="cart-items-list ul-li-block clearfix">
+									<ul class="clearfix">
+										<li>
+											<div class="item-image">
+												<img src="assets/images/cart/img_1.png" alt="image_not_found">
+											</div>
+											<div class="item-content">
+												<h4 class="item-title">Digital Thermometer</h4>
+												<span class="item-price">$39.50</span>
+											</div>
+											<button type="button" class="remove-btn"><i class="las la-times"></i></button>
+										</li>
+
+										<li>
+											<div class="item-image">
+												<img src="assets/images/cart/img_2.png" alt="image_not_found">
+											</div>
+											<div class="item-content">
+												<h4 class="item-title">Digital Infrared Thermometer</h4>
+												<span class="item-price">$39.50</span>
+											</div>
+											<button type="button" class="remove-btn"><i class="las la-times"></i></button>
+										</li>
+
+										<li>
+											<div class="item-image">
+												<img src="assets/images/cart/img_3.png" alt="image_not_found">
+											</div>
+											<div class="item-content">
+												<h4 class="item-title">Digital Blood Pressure Machine</h4>
+												<span class="item-price">$39.50</span>
+											</div>
+											<button type="button" class="remove-btn"><i class="las la-times"></i></button>
+										</li>
+									</ul>
+								</div>
+
+								<div class="btns-group ul-li clearfix">
+									<ul class="clearfix">
+										<li><a href="cart.html" class="btn bg-default-black">View Cart</a></li>
+										<li><a href="checkout.html" class="btn bg-royal-blue">Checkout</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header" id="heading-two">
+							<button data-toggle="collapse" data-target="#collapse-two" aria-expanded="false" aria-controls="collapse-two">
+								<i class="las la-bars"></i> 
+								All Categories
+							</button>
+						</div>
+						<div id="collapse-two" class="collapse" aria-labelledby="heading-two" data-parent="#mobile-accordion">
+							<div class="card-body all-categories-list ul-li-block clearfix">
+								<ul class="clearfix">
+									<li><a href="#!"><span><i class="las la-microscope"></i></span> Equipment</a></li>
+									<li><a href="#!"><span><i class="las la-capsules"></i></span> General Medecine</a></li>
+									<li><a href="#!"><span><i class="las la-dna"></i></span> Food Suppliment</a></li>
+									<li><a href="#!"><span><i class="las la-first-aid"></i></span> Pharmacy</a></li>
+									<li><a href="#!"><span><i class="las la-stethoscope"></i></span> Medical Tools</a></li>
+									<li><a href="#!"><span><i class="las la-syringe"></i></span> Surgery Equipment</a></li>
+									<li><a href="#!"><span><i class="las la-brain"></i></span> Neurology</a></li>
+									<li><a href="#!"><span><i class="las la-x-ray"></i></span> Orthopredic</a></li>
+									<li><a href="#!"><span><i class="las la-thermometer"></i></span> Diabetic Medicine</a></li>
+									<li><a href="#!"><span><i class="las la-user-nurse"></i></span> ICU Euipment</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="menu_list ul-li-block clearfix">
+					<h3 class="widget-title">Menu List</h3>
+
+					<ul class="clearfix">
+						<li class="active dropdown">
+							<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+							<ul class="dropdown-menu">
+								<li><a href="index.html">Home V.1</a></li>
+								<li><a href="index-2.html">Home V.2</a></li>
+							</ul>
+						</li>
+						<li><a href="about.html">About</a></li>
+						<li class="dropdown">
+							<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+							<ul class="dropdown-menu">
+								<li class="dropdown">
+									<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop Grid</a>
+									<ul class="dropdown-menu">
+										<li><a href="shop-grid-2-column.html">Grid 2 Column</a></li>
+										<li><a href="shop-grid-3-column.html">Grid 3 Column</a></li>
+										<li><a href="shop-grid-4-column.html">Grid 4 Column</a></li>
 									</ul>
 								</li>
-								<li>
-									<a href="blog.html">Blog</a>
+								<li><a href="shop-list.html">Shop List</a></li>
+								<li class="dropdown">
+									<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop Details</a>
+									<ul class="dropdown-menu">
+										<li><a href="shop-details-1.html">Shop Details v1</a></li>
+										<li><a href="shop-details-2.html">Shop Details v2</a></li>
+										<li><a href="shop-details-3.html">Shop Details v3</a></li>
+										<li><a href="shop-details-4.html">Shop Details v4</a></li>
+									</ul>
 								</li>
-								<li>
-									<a href="#0">Buy Template</a>
-								</li>
+								<li><a href="cart.html">Cart Page</a></li>
+								<li><a href="checkout.html">Checkout Page</a></li>
+								<li><a href="wishlist.html">Wishlist Page</a></li>
 							</ul>
-						</div>
-						<!--/main-menu -->
-					</nav>
-					<div class="col-xl-3 col-lg-2 d-lg-flex align-items-center justify-content-end text-end">
-						<a class="phone_top" href="tel://9438843343"><strong><span>Need Help?</span>+94 423-23-221</strong></a>
-					</div>
+						</li>
+						<li class="dropdown">
+							<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+							<ul class="dropdown-menu">
+								<li><a href="cart.html">Cart Page</a></li>
+								<li><a href="checkout.html">Checkout Page</a></li>
+								<li><a href="wishlist.html">Wishlist Page</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#!" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+							<ul class="dropdown-menu">
+								<li><a href="blog-standard.html">Blog Standard</a></li>
+								<li><a href="blog-masonry.html">Blog Masonry</a></li>
+								<li><a href="blog-details.html">Blog Details</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
 				</div>
-				<!-- /row -->
-			</div>
-		</div>
-		<!-- /main_header -->
 
-		<div class="main_nav inner Sticky">
-			<div class="container">
-				<div class="row small-gutters">
-					<div class="col-xl-3 col-lg-3 col-md-3">
-						<nav class="categories">
-							<ul class="clearfix">
-								<li><span>
-										<a href="#">
-											<span class="hamburger hamburger--spin">
-												<span class="hamburger-box">
-													<span class="hamburger-inner"></span>
-												</span>
-											</span>
-											Categories
-										</a>
-									</span>
-									<div id="menu">
-										<ul>
-											<li><span><a href="#0">Collections</a></span>
-												<ul>
-													<li><a href="listing-grid-1-full.html">Trending</a></li>
-													<li><a href="listing-grid-2-full.html">Life style</a></li>
-													<li><a href="listing-grid-3.html">Running</a></li>
-													<li><a href="listing-grid-4-sidebar-left.html">Training</a></li>
-													<li><a href="listing-grid-5-sidebar-right.html">View all Collections</a></li>
-												</ul>
-											</li>
-											<li><span><a href="#">Men</a></span>
-												<ul>
-													<li><a href="listing-grid-6-sidebar-left.html">Offers</a></li>
-													<li><a href="listing-grid-7-sidebar-right.html">Shoes</a></li>
-													<li><a href="listing-row-1-sidebar-left.html">Clothing</a></li>
-													<li><a href="listing-row-3-sidebar-left.html">Accessories</a></li>
-													<li><a href="listing-row-4-sidebar-extended.html">Equipment</a></li>
-												</ul>
-											</li>
-											<li><span><a href="#">Women</a></span>
-												<ul>
-													<li><a href="listing-grid-1-full.html">Best Sellers</a></li>
-													<li><a href="listing-grid-2-full.html">Clothing</a></li>
-													<li><a href="listing-grid-3.html">Accessories</a></li>
-													<li><a href="listing-grid-4-sidebar-left.html">Shoes</a></li>
-												</ul>
-											</li>
-											<li><span><a href="#">Boys</a></span>
-												<ul>
-													<li><a href="listing-grid-6-sidebar-left.html">Easy On Shoes</a></li>
-													<li><a href="listing-grid-7-sidebar-right.html">Clothing</a></li>
-													<li><a href="listing-row-3-sidebar-left.html">Must Have</a></li>
-													<li><a href="listing-row-4-sidebar-extended.html">All Boys</a></li>
-												</ul>
-											</li>
-											<li><span><a href="#">Girls</a></span>
-												<ul>
-													<li><a href="listing-grid-1-full.html">New Releases</a></li>
-													<li><a href="listing-grid-2-full.html">Clothing</a></li>
-													<li><a href="listing-grid-3.html">Sale</a></li>
-													<li><a href="listing-grid-4-sidebar-left.html">Best Sellers</a></li>
-												</ul>
-											</li>
-											<li><span><a href="#">Customize</a></span>
-												<ul>
-													<li><a href="listing-row-1-sidebar-left.html">For Men</a></li>
-													<li><a href="listing-row-2-sidebar-right.html">For Women</a></li>
-													<li><a href="listing-row-4-sidebar-extended.html">For Boys</a></li>
-													<li><a href="listing-grid-1-full.html">For Girls</a></li>
-												</ul>
-											</li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</div>
-					<div class="col-xl-6 col-lg-7 col-md-6 d-none d-md-block">
-						<div class="custom-search-input">
-							<input type="text" placeholder="Search over 10.000 products">
-							<button type="submit"><i class="header-icon_search_custom"></i></button>
-						</div>
-					</div>
-					<div class="col-xl-3 col-lg-2 col-md-3">
-						<ul class="top_tools">
-							<li>
-								<div class="dropdown dropdown-cart">
-									<a href="cart.html" class="cart_bt"><strong>2</strong></a>
-									<div class="dropdown-menu">
-										<ul>
-											<li>
-												<a href="product-detail-1.html">
-													<figure><img src="img/products/product_placeholder_square_small.jpg" data-src="img/products/shoes/thumb/1.jpg" alt="" width="50" height="50" class="lazy"></figure>
-													<strong><span>1x Armor Air x Fear</span>$90.00</strong>
-												</a>
-												<a href="#0" class="action"><i class="ti-trash"></i></a>
-											</li>
-											<li>
-												<a href="product-detail-1.html">
-													<figure><img src="img/products/product_placeholder_square_small.jpg" data-src="img/products/shoes/thumb/2.jpg" alt="" width="50" height="50" class="lazy"></figure>
-													<strong><span>1x Armor Okwahn II</span>$110.00</strong>
-												</a>
-												<a href="0" class="action"><i class="ti-trash"></i></a>
-											</li>
-										</ul>
-										<div class="total_drop">
-											<div class="clearfix"><strong>Total</strong><span>$200.00</span></div>
-											<a href="cart.html" class="btn_1 outline">View Cart</a><a href="checkout.html" class="btn_1">Checkout</a>
-										</div>
-									</div>
-								</div>
-								<!-- /dropdown-cart-->
-							</li>
-							<li>
-								<a href="#0" class="wishlist"><span>Wishlist</span></a>
-							</li>
-							<li>
-								<div class="dropdown dropdown-access">
-									<a href="account.html" class="access_link"><span>Account</span></a>
-									<div class="dropdown-menu">
-										<a href="account.html" class="btn_1">Sign In or Sign Up</a>
-										<ul>
-											<li>
-												<a href="track-order.html"><i class="ti-truck"></i>Track your Order</a>
-											</li>
-											<li>
-												<a href="account.html"><i class="ti-package"></i>My Orders</a>
-											</li>
-											<li>
-												<a href="account.html"><i class="ti-user"></i>My Profile</a>
-											</li>
-											<li>
-												<a href="help.html"><i class="ti-help-alt"></i>Help and Faq</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<!-- /dropdown-access-->
-							</li>
-							<li>
-								<a href="javascript:void(0);" class="btn_search_mob"><span>Search</span></a>
-							</li>
-							<li>
-								<a href="#menu" class="btn_cat_mob">
-									<div class="hamburger hamburger--spin" id="hamburger">
-										<div class="hamburger-box">
-											<div class="hamburger-inner"></div>
-										</div>
-									</div>
-									Categories
-								</a>
-							</li>
+				<div class="user-dropdown ul-li-block clearfix">
+					<h3 class="widget-title">User Settings</h3>
+					<ul class="clearfix">
+						<li><a href="#!"><i class="las la-user-circle"></i> Profile</a></li>
+						<li><a href="#!"><i class="las la-user-cog"></i> Settings</a></li>
+						<li><a href="#!"><i class="las la-sign-out-alt"></i> Logout</a></li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="overlay"></div>
+		</div>
+		<!-- sidebar mobile menu - end -->
+		<!-- header-section - end
+		================================================== -->
+
+
+		<!-- main body - start
+		================================================== -->
+		<main>
+
+
+			<!-- breadcrumb-section - start
+			================================================== -->
+			<section id="breadcrumb-section" class="breadcrumb-section d-flex align-items-center decoration-wrap clearfix" data-background="assets/images/background/bg_1.jpg">
+				<div class="container text-center">
+					<h1 class="page-title mb-3">Contact Us</h1>
+					<div class="breadcrumb-nav ul-li-center clearfix">
+						<ul class="clearfix">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="shop-grid-3-column.html">Shop</a></li>
+							<li class="active">Checkout</li>
 						</ul>
 					</div>
 				</div>
-				<!-- /row -->
-			</div>
-			<div class="search_mob_wp">
-				<input type="text" class="form-control" placeholder="Search over 10.000 products">
-				<input type="submit" class="btn_1 full-width" value="Search">
-			</div>
-			<!-- /search_mobile -->
-		</div>
-		<!-- /main_nav -->
-	</header>
-	<!-- /header -->
-	
-	<main class="bg_gray">
-	
-		
-	<div class="container margin_30">
-		<div class="page_header">
-			<div class="breadcrumbs">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Category</a></li>
-					<li>Page active</li>
-				</ul>
-		</div>
-		<h1>Sign In or Create an Account</h1>
-			
-	</div>
-	<!-- /page_header -->
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="step first">
-						<h3>1. User Info and Billing address</h3>
-					<ul class="nav nav-tabs" id="tab_checkout" role="tablist">
-					  <li class="nav-item">
-						<a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#tab_1" role="tab" aria-controls="tab_1" aria-selected="true">Register</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#tab_2" role="tab" aria-controls="tab_2" aria-selected="false">Login</a>
-					  </li>
-					</ul>
-					<div class="tab-content checkout">
-						<div class="tab-pane fade show active" id="tab_1" role="tabpanel" aria-labelledby="tab_1">
-							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Email">
+
+				<span class="decoration-image pill-image-1">
+					<img src="assets/images/decoration/pill_1.png" alt="pill_image_not_found">
+				</span>
+			</section>
+			<!-- breadcrumb-section - end
+			================================================== -->
+
+
+			<!-- checkout-section - start
+			================================================== -->
+			<section id="checkout-section" class="checkout-section sec-ptb-100 clearfix">
+				<div class="container">
+
+					<div class="row mt--30 mb-70 justify-content-lg-between justify-content-md-center justify-content-sm-center">
+						<div class="col-lg-6 col-md-8 col-sm-10 col-xs-12">
+							<div class="register-item d-flex align-items-center">
+								<p>Returning Customer? <a href="#!">Click here to login</a></p>
 							</div>
-							<div class="form-group">
-								<input type="password" class="form-control" placeholder="Password">
+						</div>
+
+						<div class="col-lg-6 col-md-8 col-sm-10 col-xs-12">
+							<div class="register-item d-flex align-items-center">
+								<p>Have a Coupon code? <a href="#!">Click here to enter your code</a></p>
 							</div>
-							<hr>
-							<div class="row no-gutters">
-								<div class="col-6 form-group pr-1">
-									<input type="text" class="form-control" placeholder="Name">
-								</div>
-								<div class="col-6 form-group pl-1">
-									<input type="text" class="form-control" placeholder="Last Name">
-								</div>
-							</div>
-							<!-- /row -->
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Full Address">
-							</div>
-							<div class="row no-gutters">
-								<div class="col-6 form-group pr-1">
-									<input type="text" class="form-control" placeholder="City">
-								</div>
-								<div class="col-6 form-group pl-1">
-									<input type="text" class="form-control" placeholder="Postal code">
-								</div>
-							</div>
-							<!-- /row -->
-							<div class="row no-gutters">
-								<div class="col-md-12 form-group">
-									<div class="custom-select-form">
-										<select class="wide add_bottom_15" name="country" id="country">
-											<option value="" selected>Country</option>
-											<option value="Europe">Europe</option>
-											<option value="United states">United states</option>
-											<option value="Asia">Asia</option>
+						</div>
+					</div>
+
+					<div class="row justify-content-lg-between justify-content-md-center justify-content-sm-center">
+						<div class="col-lg-7 col-md-8 col-sm-10 col-xs-12">
+							<div class="billing-form">
+								<h3 class="title-text mb-40">Billing Details</h3>
+								<form action="#">
+									<div class="row">
+										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+											<div class="form-item">
+												<h4 class="form-title">First Name*</h4>
+												<input type="text" name="firstname">
+											</div>
+										</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+											<div class="form-item">
+												<h4 class="form-title">Last Name*</h4>
+												<input type="text" name="lastname">
+											</div>
+										</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+											<div class="form-item">
+												<h4 class="form-title">Phone Number*</h4>
+												<input type="tel" name="telephone">
+											</div>
+										</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+											<div class="form-item">
+												<h4 class="form-title">Email Address*</h4>
+												<input type="email" name="email">
+											</div>
+										</div>
+									</div>
+
+									<div class="form-item">
+										<h4 class="form-title">Company Name (Optional)</h4>
+										<input type="text" name="company">
+									</div>
+
+									<div class="form-item">
+										<h4 class="form-title">Street Address*</h4>
+										<input type="text" name="address" placeholder="e.g. House, Road, Street Name">
+									</div>
+
+									<div class="form-item">
+										<h4 class="form-title">District*</h4>
+										<select name="district">
+											<option value="01" selected>e.g. New York</option>
+											<option value="02">e.g. New York</option>
+											<option value="03">e.g. New York</option>
+											<option value="04">e.g. New York</option>
+											<option value="05">e.g. New York</option>
+											<option value="06">e.g. New York</option>
 										</select>
 									</div>
-								</div>
-							</div>
-							<!-- /row -->
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Telephone">
-							</div>
-							<hr>
-							<div class="form-group">
-								<label class="container_check" id="other_addr">Other billing address
-								  <input type="checkbox">
-								  <span class="checkmark"></span>
-								</label>
-							</div>
-							<div id="other_addr_c" class="pt-2">
-							<div class="row no-gutters">
-								<div class="col-6 form-group pr-1">
-									<input type="text" class="form-control" placeholder="Name">
-								</div>
-								<div class="col-6 form-group pl-1">
-									<input type="text" class="form-control" placeholder="Last Name">
-								</div>
-							</div>
-							<!-- /row -->
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Full Address">
-							</div>
-							<div class="row no-gutters">
-								<div class="col-6 form-group pr-1">
-									<input type="text" class="form-control" placeholder="City">
-								</div>
-								<div class="col-6 form-group pl-1">
-									<input type="text" class="form-control" placeholder="Postal code">
-								</div>
-							</div>
-							<!-- /row -->
-							<div class="row no-gutters">
-								<div class="col-md-12 form-group">
-									<div class="custom-select-form">
-										<select class="wide add_bottom_15" name="country" id="country_2">
-											<option value="" selected>Country</option>
-											<option value="Europe">Europe</option>
-											<option value="United states">United states</option>
-											<option value="Asia">Asia</option>
+
+									<div class="form-item">
+										<h4 class="form-title">Post Code/ZIP (Optional)</h4>
+										<select name="district">
+											<option value="01" selected>12250</option>
+											<option value="02">12250</option>
+											<option value="03">12250</option>
+											<option value="04">12250</option>
+											<option value="05">12250</option>
+											<option value="06">12250</option>
 										</select>
 									</div>
-								</div>
+
+									<div class="shipping-details">
+										<h3 class="title-text mb-30">Shipping Details</h3>
+										<div class="checkbox-btn">
+											<input id="altranative-adderss" type="checkbox">
+											<label for="altranative-adderss">Ship to different address</label>
+										</div>
+									</div>
+
+									<div class="form-item mb-0">
+										<h4 class="form-title">Order Notes (Optional)</h4>
+										<textarea name="note" placeholder="Note about your order e.g. special note for your delivery"></textarea>
+									</div>
+								</form>
 							</div>
-							<!-- /row -->
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Telephone">
-							</div>
-							</div>
-							<!-- /other_addr_c -->
-							<hr>
 						</div>
-						<!-- /tab_1 -->
-					  <div class="tab-pane fade" id="tab_2" role="tabpanel" aria-labelledby="tab_2" style="position: relative;">
-						  <a href="#0" class="social_bt facebook">Login con Facebook</a>
-						  <a href="#0" class="social_bt google">Login con Google</a>
-						  <div class="form-group">
-								<input type="email" class="form-control" placeholder="Email">
-							</div>
-							<div class="form-group">
-								<input type="password" class="form-control" placeholder="Password" name="password_in" id="password_in">
-							</div>
-						  	<div class="clearfix add_bottom_15">
-								<div class="checkboxes float-start">
-									<label class="container_check">Remember me
-										<input type="checkbox">
-										<span class="checkmark"></span>
-									</label>
+
+						<div class="col-lg-5 col-md-8 col-sm-10 col-xs-12">
+							<div class="checkout-sidebar">
+								<h3 class="title-text mb-40">Your Order</h3>
+
+								<div class="cart-items-list ul-li-block mb-60 clearfix">
+									<ul class="clearfix">
+										<li>
+											<div class="item-image">
+												<img src="assets/images/cart/img_1.png" alt="image_not_found">
+											</div>
+											<div class="item-content">
+												<h4 class="item-title">Digital Thermometer</h4>
+												<span class="item-price">$39.50</span>
+											</div>
+											<button type="button" class="remove-btn"><i class="las la-times"></i></button>
+										</li>
+
+										<li>
+											<div class="item-image">
+												<img src="assets/images/cart/img_2.png" alt="image_not_found">
+											</div>
+											<div class="item-content">
+												<h4 class="item-title">Digital Infrared Thermometer</h4>
+												<span class="item-price">$39.50</span>
+											</div>
+											<button type="button" class="remove-btn"><i class="las la-times"></i></button>
+										</li>
+
+										<li>
+											<div class="item-image">
+												<img src="assets/images/cart/img_3.png" alt="image_not_found">
+											</div>
+											<div class="item-content">
+												<h4 class="item-title">Digital Blood Pressure Machine</h4>
+												<span class="item-price">$39.50</span>
+											</div>
+											<button type="button" class="remove-btn"><i class="las la-times"></i></button>
+										</li>
+									</ul>
 								</div>
-								<div class="float-end"><a id="forgot" href="#0">Lost Password?</a></div>
-							</div>
-							  <div id="forgot_pw">
-								<div class="form-group">
-									<input type="email" class="form-control" name="email_forgot" id="email_forgot" placeholder="Type your email">
+
+								<div class="total-cost-bar mb-60 clearfix">
+									<h3 class="title-text mb-0">Total Cost</h3>
+									<div class="cost-info ul-li-block clearfix">
+										<ul class="clearfix">
+											<li><strong>Subtotal</strong> <span>$99.00</span></li>
+											<li>
+												<strong>Shipping Cost</strong> <span>$5.00</span>
+												<p class="mb-0 text-right">Shipping to DHL</p>
+											</li>
+										</ul>
+									</div>
+									<div class="total-cost clearfix">
+										<strong>Total</strong>
+										<span>$104.00</span>
+									</div>
 								</div>
-								<p>A new password will be sent shortly.</p>
-								<div class="text-center"><input type="submit" value="Reset Password" class="btn_1"></div>
+
+								<div class="payment-information ul-li-block mb-60 clearfix">
+									<ul class="clearfix">
+										<li>
+											<div class="checkbox-btn">
+												<input id="bank-transfer" type="radio" name="payment-way" checked>
+												<label for="bank-transfer">Direct Bank Transfer</label>
+											</div>
+											<p class="mb-0">
+												Make your payment directly into your bank account. Please enter your order ID as a payment reference. Your order will not be shipped until the funds have cleared in our bank.
+											</p>
+										</li>
+
+										<li>
+											<div class="checkbox-btn">
+												<input id="check-payments" type="radio" name="payment-way">
+												<label for="check-payments">Check Payments</label>
+											</div>
+											<p class="mb-0">
+												Please send a check to store name, store street, store town, store state/country, store postcode.
+											</p>
+										</li>
+
+										<li>
+											<div class="checkbox-btn">
+												<input id="cash-on-delivery" type="radio" name="payment-way">
+												<label for="cash-on-delivery">Cash On Delivery</label>
+											</div>
+											<p class="mb-0">
+												Cash On Delivery
+											</p>
+										</li>
+
+										<li>
+											<div class="checkbox-btn">
+												<input id="pay-paypal" type="radio" name="payment-way">
+												<label for="pay-paypal">Pay with Paypal</label>
+											</div>
+											<p class="mb-15">
+												<strong>Papal</strong>
+												<img src="assets/images/payment.png" alt="image_not_found">
+												<strong>What Is Papal?</strong>
+											</p>
+											<p class="mb-15">
+												Pay via Paypal, you can pay with your credit card if you don’t have a Paypal card.
+											</p>
+											<p class="mb-0">
+												Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <strong>privacy policy</strong>.
+											</p>
+										</li>
+									</ul>
+								</div>
+								<button type="submit" class="btn bg-royal-blue">Place Order</button>
 							</div>
-							<hr>
-						  	<input type="submit" class="btn_1 full-width" value="Login">
 						</div>
-						<!-- /tab_2 -->
 					</div>
-					</div>
-					<!-- /step -->
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="step middle payments">
-						<h3>2. Payment and Shipping</h3>
-							<ul>
-								<li>
-									<label class="container_radio">Credit Card<a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
-										<input type="radio" name="payment" checked>
-										<span class="checkmark"></span>
-									</label>
-								</li>
-								<li>
-									<label class="container_radio">Paypal<a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
-										<input type="radio" name="payment">
-										<span class="checkmark"></span>
-									</label>
-								</li>
-								<li>
-									<label class="container_radio">Cash on delivery<a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
-										<input type="radio" name="payment">
-										<span class="checkmark"></span>
-									</label>
-								</li>
-								<li>
-									<label class="container_radio">Bank Transfer<a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
-										<input type="radio" name="payment">
-										<span class="checkmark"></span>
-									</label>
-								</li>
-							</ul>
-							<div class="payment_info d-none d-sm-block"><figure><img src="img/cards_all.svg" alt=""></figure>	<p>Sensibus reformidans interpretaris sit ne, nec errem nostrum et, te nec meliore philosophia. At vix quidam periculis. Solet tritani ad pri, no iisque definitiones sea.</p></div>
-							
-							<h6 class="pb-2">Shipping Method</h6>
-							
-						
-						<ul>
-								<li>
-									<label class="container_radio">Standard shipping<a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
-										<input type="radio" name="shipping" checked>
-										<span class="checkmark"></span>
-									</label>
-								</li>
-								<li>
-									<label class="container_radio">Express shipping<a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
-										<input type="radio" name="shipping">
-										<span class="checkmark"></span>
-									</label>
-								</li>
-								
-							</ul>
-						
-					</div>
-					<!-- /step -->
 					
 				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="step last">
-						<h3>3. Order Summary</h3>
-					<div class="box_general summary">
-						<ul>
-							<li class="clearfix"><em>1x Armor Air X Fear</em>  <span>$145.00</span></li>
-							<li class="clearfix"><em>2x Armor Air Zoom Alpha</em> <span>$115.00</span></li>
-						</ul>
-						<ul>
-							<li class="clearfix"><em><strong>Subtotal</strong></em>  <span>$450.00</span></li>
-							<li class="clearfix"><em><strong>Shipping</strong></em> <span>$0</span></li>
-							
-						</ul>
-						<div class="total clearfix">TOTAL <span>$450.00</span></div>
-						<div class="form-group">
-								<label class="container_check">Register to the Newsletter.
-								  <input type="checkbox" checked>
-								  <span class="checkmark"></span>
-								</label>
-							</div>
-						
-						<a href="confirm.html" class="btn_1 full-width">Confirm and Pay</a>
-					</div>
-					<!-- /box_general -->
-					</div>
-					<!-- /step -->
-				</div>
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
-	</main>
-	<!--/main-->
-	
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<h3 data-bs-target="#collapse_1">Quick Links</h3>
-					<div class="collapse dont-collapse-sm links" id="collapse_1">
-						<ul>
-							<li><a href="about.html">About us</a></li>
-							<li><a href="help.html">Faq</a></li>
-							<li><a href="help.html">Help</a></li>
-							<li><a href="account.html">My account</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contacts.html">Contacts</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3 data-bs-target="#collapse_2">Categories</h3>
-					<div class="collapse dont-collapse-sm links" id="collapse_2">
-						<ul>
-							<li><a href="listing-grid-1-full.html">Clothes</a></li>
-							<li><a href="listing-grid-2-full.html">Electronics</a></li>
-							<li><a href="listing-grid-1-full.html">Furniture</a></li>
-							<li><a href="listing-grid-3.html">Glasses</a></li>
-							<li><a href="listing-grid-1-full.html">Shoes</a></li>
-							<li><a href="listing-grid-1-full.html">Watches</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-						<h3 data-bs-target="#collapse_3">Contacts</h3>
-					<div class="collapse dont-collapse-sm contacts" id="collapse_3">
-						<ul>
-							<li><i class="ti-home"></i>97845 Baker st. 567<br>Los Angeles - US</li>
-							<li><i class="ti-headphone-alt"></i>+94 423-23-221</li>
-							<li><i class="ti-email"></i><a href="#0">info@allaia.com</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-						<h3 data-bs-target="#collapse_4">Keep in touch</h3>
-					<div class="collapse dont-collapse-sm" id="collapse_4">
-						<div id="newsletter">
-						    <div class="form-group">
-						        <input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Your email">
-						        <button type="submit" id="submit-newsletter"><i class="ti-angle-double-right"></i></button>
-						    </div>
-						</div>
-						<div class="follow_us">
-							<h5>Follow Us</h5>
-							<ul>
-								<li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/twitter_icon.svg" alt="" class="lazy"></a></li>
-								<li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/facebook_icon.svg" alt="" class="lazy"></a></li>
-								<li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/instagram_icon.svg" alt="" class="lazy"></a></li>
-								<li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/youtube_icon.svg" alt="" class="lazy"></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- /row-->
-			<hr>
-			<div class="row add_bottom_25">
-				<div class="col-lg-6">
-					<ul class="footer-selector clearfix">
-						<li>
-							<div class="styled-select lang-selector">
-								<select>
-									<option value="English" selected>English</option>
-									<option value="French">French</option>
-									<option value="Spanish">Spanish</option>
-									<option value="Russian">Russian</option>
-								</select>
-							</div>
-						</li>
-						<li>
-							<div class="styled-select currency-selector">
-								<select>
-									<option value="US Dollars" selected>US Dollars</option>
-									<option value="Euro">Euro</option>
-								</select>
-							</div>
-						</li>
-						<li><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/cards_all.svg" alt="" width="198" height="30" class="lazy"></li>
-					</ul>
-				</div>
-				<div class="col-lg-6">
-					<ul class="additional_links">
-						<li><a href="#0">Terms and conditions</a></li>
-						<li><a href="#0">Privacy</a></li>
-						<li><span>© 2022 Allaia</span></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--/footer-->
-	</div>
-	<!-- page -->
-	
-	<div id="toTop"></div><!-- Back to top button -->
-	<!-- Modal Payments Method-->
-	<div class="modal fade" id="payments_method" tabindex="-1" role="dialog" aria-labelledby="payments_method_title" aria-hidden="true">
-	  <div class="modal-dialog modal-dialog-centered" role="document">
-		<div class="modal-content">
-		  <div class="modal-header">
-			<h5 class="modal-title" id="payments_method_title">Payments Methods</h5>
-			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-		  </div>
-		  <div class="modal-body">
-			<p>Lorem ipsum dolor sit amet, oratio possim ius cu. Labore prompta nominavi sea ei. Sea no animal saperet gloriatur, ius iusto ullamcorper ad. Qui ignota reformidans ei, vix in elit conceptam adipiscing, quaestio repudiandae delicatissimi vis ei. Fabulas accusamus no has.</p>
-			 <p>Et nam vidit zril, pri elaboraret suscipiantur ut. Duo mucius gloriatur at, in vis integre labitur dolores, mei omnis utinam labitur id. An eum prodesset appellantur. Ut alia nemore mei, at velit veniam vix, nonumy propriae conclusionemque ea cum.</p>
-		  </div>
-		</div>
-	  </div>
-	</div>
-	
-	<!-- COMMON SCRIPTS -->
-    <script src="js/common_scripts.min.js"></script>
-    <script src="js/main.js"></script>
+			</section>
+			<!-- checkout-section - end
+			================================================== -->
 
-    <script>
-    	// Other address Panel
-		$('#other_addr input').on("change", function (){
-	        if(this.checked)
-	            $('#other_addr_c').fadeIn('fast');
-	        else
-	            $('#other_addr_c').fadeOut('fast');
-	    });
-	</script>
+
+		</main>
+		<!-- main body - end
+		================================================== -->
+
+
+		<!-- footer-section - start
+		================================================== -->
+		<footer id="footer-section" class="footer-section sec-ptb-100 pb-0 bg-gray clearfix">
+			<div class="container">
+
+				<div class="widget-area mb-60 clearfix">
+					<div class="row justify-content-lg-between justify-content-md-center justify-content-md-center">
+
+						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+							<div class="about-content">
+								<div class="brand-logo mb-4 clearfix">
+									<a href="index.html" class="brand-link">
+										<img src="assets/images/logo/medicia_1.png" alt="logo_not_found">
+									</a>
+								</div>
+								<p class="mb-30">
+									Medicia is an online medical service and
+									medicinewooCommerce theme for your ultimate
+									online store and medical service.
+								</p>
+								<div class="social-icon-circle ul-li clearfix">
+									<ul class="clearfix">
+										<li><a href="#!"><i class="lab la-facebook-f"></i></a></li>
+										<li><a href="#!"><i class="lab la-twitter"></i></a></li>
+										<li><a href="#!"><i class="lab la-instagram"></i></a></li>
+										<li><a href="#!"><i class="lab la-pinterest-p"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+							<div class="useful-links ul-li-block clearfix">
+								<h3 class="widget-title">Products</h3>
+								<ul class="clearfix">
+									<li><a href="#!">Medicines</a></li>
+									<li><a href="#!">Vitamins &amp; Supplements</a></li>
+									<li><a href="#!">Accessories</a></li>
+									<li><a href="#!">Medical Equipment</a></li>
+									<li><a href="#!">All Products</a></li>
+									<li><a href="#!">Doctor Equipment</a></li>
+									<li><a href="#!">Offer Sale</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+							<div class="useful-links ul-li-block clearfix">
+								<h3 class="widget-title">Quick Link</h3>
+								<ul class="clearfix">
+									<li><a href="#!">Support</a></li>
+									<li><a href="#!">Refund Policy</a></li>
+									<li><a href="#!">Shipping &amp; Returns</a></li>
+									<li><a href="#!">Tearms &amp; Condition</a></li>
+									<li><a href="#!">Help Center</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+							<div class="payment-cards ul-li mb-30 clearfix">
+								<h3 class="widget-title">Payments</h3>
+								<p class="mb-3">Secure Payments</p>
+								<ul class="mb-3 clearfix">
+									<li><a href="#!"><img src="assets/images/payment_card/card_1.png" alt="_not_found"></a></li>
+									<li><a href="#!"><img src="assets/images/payment_card/card_2.png" alt="_not_found"></a></li>
+									<li><a href="#!"><img src="assets/images/payment_card/card_3.png" alt="_not_found"></a></li>
+									<li><a href="#!"><img src="assets/images/payment_card/card_4.png" alt="_not_found"></a></li>
+									<li><a href="#!"><img src="assets/images/payment_card/card_5.png" alt="_not_found"></a></li>
+								</ul>
+								<p class="mb-0">Powred by <a href="#!">stripe</a></p>
+							</div>
+							<div class="btns-group ul-li-block">
+								<ul class="clearfix">
+									<li>
+										<a href="#!" class="store-btn bg-royal-blue">
+											<span class="icon-wrap">
+												<i class="lab la-apple"></i>
+											</span>
+											<span class="content-wrap">
+												<small>available on</small>
+												<strong>Apple Store</strong>
+											</span>
+										</a>
+									</li>
+									<li>
+										<a href="#!" class="store-btn bg-default-black">
+											<span class="icon-wrap">
+												<i class="lab la-google-play"></i>
+											</span>
+											<span class="content-wrap">
+												<small>available on</small>
+												<strong>Google Play</strong>
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="footer-bottom text-center border-top clearfix">
+					<p class="mb-0">©Copyright 2020 <a href="#!">Marvel_Theme</a>. All Rights Reserved.</p>
+				</div>
+
+			</div>
+		</footer>
+		<!-- footer-section - end
+		================================================== -->
+
 		
-</body>
+		<!-- jquery include -->
+		<script src="assets/js/jquery-3.4.1.min.js"></script>
+		<script src="assets/js/jquery-ui.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/magnific-popup.min.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="assets/js/owl.carousel2.thumbs.min.js"></script>
+		<script src="assets/js/isotope.pkgd.min.js"></script>
+		<script src="assets/js/masonry.pkgd.min.js"></script>
+		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+		<script src="assets/js/countdown.js"></script>
+
+		<!-- google map - jquery include -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2HrmqE4sWSei0XdKGbOMOHN3Mm2Bf-M&ver=2.1.6"></script>
+        <script src="assets/js/gmaps.min.js"></script>
+
+		<!-- mobile menu - jquery include -->
+        <script src="assets/js/mCustomScrollbar.js"></script>
+
+		<!-- custom - jquery include -->
+		<script src="assets/js/custom.js"></script>
+
+
+	</body>
 </html>
